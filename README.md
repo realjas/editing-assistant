@@ -33,7 +33,7 @@ To Do:
 		Add in the code for the static on/off switch
 		Add in LED code dependent on the static on/off switch
 		
-		Dependent on SAMD 32u4 Arduino
+		Dependent on SAMD/32u4 Arduino
 			Strip serialport messaging and convert it to keyboard inputs using the keyboard.h available.
 			
 I wouldn't say it's anywhere near the final state, but a few details/tweaks and it can be played with in a production environment sans scrubbing the timeline with a potentiometer. 
