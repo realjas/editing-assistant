@@ -8,6 +8,7 @@ Arduino IDE (web version available) required to view/edit the 'editing-assistant
 	Download the Arduino IDE at https://www.arduino.cc/en/Main/Software
 
 NodeJS requirements:
+	
 	RobotJS for virtual keystrokes.
 		Install using npm install robotjs
 		
@@ -20,6 +21,7 @@ If you would like to see the hardware schematic you can open the 'editing assist
 	
 
 To Do:
+	
 	Hardware:
 		Aquire SAMD/32u4 compatible Arduino
 		Aquire continuous potentiometer
