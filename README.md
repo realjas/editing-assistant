@@ -4,6 +4,8 @@ This repository will be used to contain the code related to an Arduino project f
 
 As the Arduino I have is quite old there is no keyboard emulation capability.  To overcome this issue I employ a bit NodeJS and the output from Arduino's serial port via USB.
 
+Update: The Arduino now submits data as a JSON object to accommodate multiple inputs at once more elegantly.  The NodeJS script has been updated to ingest and process the JSON Object as well.
+
 Arduino IDE (web version available) required to view/edit the 'editing-assistant.ino' file.
 	Download the Arduino IDE at https://www.arduino.cc/en/Main/Software
 

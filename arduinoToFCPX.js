@@ -11,21 +11,22 @@ myPort.pipe(parser); // pipe the serial stream to the parser
 parser.on('data', printData);
 
 function printData(data){
-	console.log(data);
+	//console.log(data);
+	json = JSON.parse(data);
 	
-	if (data.includes("Step Forward")){
+	if (data.sfBol){
 		robot.keyTap('left');
 	}
 
-	if (data.includes("Step Backward")){
+	if (data.sbBol){
 		robot.keyTap('right');
 	}
 	
-	if (data.includes("Slice End")){
+	if (data.sleBol){
 		robot.keyTap(']');
 	}
 
-	if (data.includes("Slice Beginning")){
+	if (data.slbBol){
 		robot.keyTap('[');
 	}
 
